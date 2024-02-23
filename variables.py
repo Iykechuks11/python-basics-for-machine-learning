@@ -13,3 +13,22 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+
+x = 2 #int
+y = 2.5 #float
+name = 'Chukwu' #string
+is_great = True #boolean
+
+# Multiple assignment
+x, y, name, is_great = (1, 3, 'John',True)
+
+print(x)
+
+# Basic math
+z = x + y
+
+# Casting
+w = str(z)
+
+print(z)
+print(type(w))
