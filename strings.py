@@ -1,5 +1,6 @@
 # Strings in python are surrounded by either single or double quotation marks. Let's look at string formatting and some string methods
 name = 'John'
+greet = 'Helloworld!'
 age = 28
 
 # Concatenate
@@ -28,5 +29,30 @@ age = 28
 # Swap case - If a letter is upper, it makes it lower, if it is lower it makes it upper, and repeats this for all the letters
 print(name.swapcase())
 
+# Replace
+# print(greet.replace('World', 'People'))
+
+# Count
+sub = 'H'
+print(greet.count(sub))
+
+# Starts with
+print(greet.startswith('Hello')) # Returns a boolean
+
+# Ends with
+print(greet.endswith('World!')) # Returns a boolean
+
 # Get length
-print(len(name))
+# print(len(name))
+
+# Split int a list
+print(greet.split(' '))
+
+# Find position
+print(greet.find('o'))
+
+# Is all alphanumeric
+print(greet.isalnum())
+
+# Is all alphabetic
+print(greet.isalpha())
